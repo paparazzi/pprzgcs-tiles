@@ -10,7 +10,7 @@ keeps them in its tiles folder (Settings, Map), so they also work offline after 
 
 | Folder | Place | Zoom | Made with |
 |---|---|---|---|
-| `CYBERZOO` | Cyberzoo, TU Delft | 18 to 23 | `tools/map_tiles` in PprzGCS (from the Gazebo model) |
+| `CYBERZOO` | Cyberzoo, TU Delft | 16 to 23 | `tools/map_tiles` in PprzGCS (from the Gazebo model) |
 
 ## Without internet
 
@@ -27,6 +27,6 @@ PprzGCS (by default `~/.local/share/pprzgcs/map`).
 ```xml
 <source name="Cyberzoo" title="Cyberzoo (TU Delft)" dir="CYBERZOO"
     addr="https://docs.paparazziuav.org/pprzgcs-tiles/CYBERZOO/{z}/{x}/{y}.png"
-    xMin="487069" xMax="487374" yMin="6798279" yMax="6798585"
-    zoomMin="18" zoomMax="23" tileSize="256" format=".png"/>
+    xMin="486749" xMax="487234" yMin="6798418" yMax="6798616"
+    zoomMin="16" zoomMax="23" tileSize="256" format=".png"/>
 ```
