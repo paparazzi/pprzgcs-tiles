@@ -3,7 +3,7 @@
 Map tiles for [PprzGCS](https://github.com/paparazzi/PprzGCS) of places no online map shows in detail
 (indoor flight arenas), served with GitHub Pages:
 
-    https://paparazzi.github.io/pprzgcs-tiles/<DIR>/{z}/{x}/{y}.png
+    https://docs.paparazziuav.org/pprzgcs-tiles/<DIR>/{z}/{x}/{y}.png
 
 Web mercator tiles (the layout of OpenStreetMap), 256 px. PprzGCS downloads them when they are shown and
 keeps them in its tiles folder (Settings, Map), so they also work offline after that.
@@ -26,7 +26,7 @@ PprzGCS (by default `~/.local/share/pprzgcs/map`).
 
 ```xml
 <source name="Cyberzoo" title="Cyberzoo (TU Delft)" dir="CYBERZOO"
-    addr="https://paparazzi.github.io/pprzgcs-tiles/CYBERZOO/{z}/{x}/{y}.png"
+    addr="https://docs.paparazziuav.org/pprzgcs-tiles/CYBERZOO/{z}/{x}/{y}.png"
     xMin="487069" xMax="487374" yMin="6798279" yMax="6798585"
     zoomMin="18" zoomMax="23" tileSize="256" format=".png"/>
 ```
