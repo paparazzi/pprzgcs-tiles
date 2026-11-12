@@ -11,6 +11,7 @@ keeps them in its tiles folder (Settings, Map), so they also work offline after 
 | Folder | Place | Zoom | Made with |
 |---|---|---|---|
 | `CYBERZOO` | Cyberzoo, TU Delft | 16 to 23 | `tools/map_tiles` in PprzGCS (from the Gazebo model) |
+| `ENAC_ARENA` | ENAC, Toulouse | 15 to 25 | Blender, and QGIS tiles plugin |
 
 ## Without internet
 
